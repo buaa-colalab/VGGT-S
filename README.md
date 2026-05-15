@@ -36,7 +36,7 @@
 <strong>VGGT-S is a geometry-grounded segmentation framework built upon [VGGT](https://github.com/facebookresearch/vggt) for instance-level object segmentation across egocentric and exocentric views under large viewpoint, scale, and occlusion variations.</strong>
 
 <div align="center">
-    <img src="https://huggingface.co/zbbhhh/VGGT-S/resolve/main/demo.gif?raw=true" width="100%">
+    <img src="https://raw.githubusercontent.com/bohaocheung/VGGT-S-demo/main/compressed-repo-demo.gif" width="100%">
 </div>
 
 </div>
