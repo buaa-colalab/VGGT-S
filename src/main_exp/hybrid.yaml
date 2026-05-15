@@ -1,0 +1,106 @@
+# ============================================================
+# Experiment Configuration
+# ============================================================
+
+exp:
+
+  # Running mode:
+  #   - 'train': train + validation
+  #   - 'val'  : evaluation only
+  mode: 'val'
+
+  # Total training epochs
+  epochs: 12
+
+  # Experiment name
+  # Used for:
+  #   - checkpoint directory
+  #   - visualization directory
+  #   - logging directory
+  exp_name: 'test'
+
+  # Checkpoint path for resuming or evaluation
+  resume_ckpt: '../../official_ckpts/main_exp.pth'
+
+  # Number of iterative refinement steps during inference
+  refine_time: 1
+
+  # Ratio of training batch using iterative refinement
+  # Remaining samples use direct prediction only
+  refine_ratio: 0.5
+
+  # Total training iterations
+  train_iter: 240000
+
+  # Initial learning rate
+  lr: 5e-5
+
+  # AdamW weight decay
+  weight_decay: 1e-4
+
+  # MultiStepLR decay epochs
+  # LR *= 0.1 at each milestone
+  lr_drops: [8, 11]
+
+  # Gradient clipping max norm
+  max_norm: 1.0
+
+
+# ============================================================
+# Dataset & Dataloader Configuration
+# ============================================================
+
+data:
+
+  # Exocentric target crop augmentation factor
+  exo_tar_crop: 3
+
+  # Linear crop augmentation flag / strength
+  linear_crop: 1
+
+  # Source sampling radius
+  src_R: 2
+
+  # Training batch size per iteration
+  train_batch_size: 8
+
+  # Validation batch size
+  val_batch_size: 8
+
+  # Validation sampling step
+  # Smaller value -> denser evaluation
+  val_step: 20
+
+  # Full evaluation sampling step
+  val_full_step: 20
+
+  # Input image resolution
+  img_size: 518
+
+  # Number of SAM tokens / prompt tokens
+  sa_tokens: 37
+
+  # Number of predictor blocks
+  blocks: 2
+
+
+# ============================================================
+# VGGT Configuration
+# ============================================================
+
+vggt:
+
+  # Number of sampled mask query points
+  # used for VGGT tracking
+  sample_num: 5
+
+
+# ============================================================
+# Debug & Visualization
+# ============================================================
+
+debug:
+
+  # Number of batches to visualize
+  # during training / validation
+  vis_batch: 1

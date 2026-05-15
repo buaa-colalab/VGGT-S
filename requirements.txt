@@ -1,0 +1,7 @@
+tensorboard
+matplotlib
+scikit-learn
+opencv-python
+pycocotools
+
+-e .
