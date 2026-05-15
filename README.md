@@ -403,7 +403,7 @@ If you find this work useful, please consider citing our paper:
 
 ## 📄 License
 
-This project is licensed under the Apache-2.0 License. See [LICENSE](assets/LICENSE.txt) for more information.
+This project is licensed under the Apache-2.0 License. See [LICENSE](LICENSE.txt) for more information.
 
 ## 🙏 Acknowledgement
 
