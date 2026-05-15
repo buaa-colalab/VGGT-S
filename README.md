@@ -412,4 +412,5 @@ This project is built upon several excellent open-source projects:
 * [VGGT](https://github.com/facebookresearch/vggt)
 * [EgoExo4d](https://github.com/EGO4D/ego-exo4d-relation)
 * [SAM2](https://github.com/facebookresearch/sam2)
+
 We thank the authors for releasing their code and models to the community.
