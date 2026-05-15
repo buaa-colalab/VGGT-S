@@ -43,7 +43,7 @@
 
 ## 📢 News
 
-* **[2206-05-15]** 🚀 Code and checkpoint are open-sourced.
+* **[2026-05-15]** 🚀 Code and checkpoint are open-sourced.
 * **[2026-04-15]** 🔥 VGGT-Segmentor paper is released on arxiv.
 
 
