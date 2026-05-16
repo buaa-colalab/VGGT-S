@@ -80,9 +80,6 @@ data:
   # Number of SAM tokens / prompt tokens
   sa_tokens: 37
 
-  # Number of predictor blocks
-  blocks: 2
-
 
 # ============================================================
 # VGGT Configuration
