@@ -431,7 +431,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--n_samples',
         type=int,
-        default=50,
+        default=50,  # Recommended to be larger than 20
     )
 
     parser.add_argument(
