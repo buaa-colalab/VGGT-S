@@ -108,7 +108,7 @@ VGGT-S/
 ```bash
 cd VGGT-S
 pip install -r requirements.txt # This is for VGGT-S
-huggingface-cli download zbbhhh/VGGT-S main_exp.pth --local-dir official_ckpts # Download checkpoint
+hf download zbbhhh/VGGT-S main_exp.pth --local-dir official_ckpts # Download checkpoint
 ```
 
 ---
