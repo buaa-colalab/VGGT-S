@@ -82,7 +82,7 @@ This project is built upon [VGGT](https://github.com/facebookresearch/vggt), pro
 Please clone the official VGGT repository under `third_party`:
 
 ```bash
-cd third_party
+mkdir -p third_party && cd third_party
 git clone https://github.com/facebookresearch/vggt.git vggt_main
 cd vggt_main
 pip install -r requirements.txt # This is for VGGT
