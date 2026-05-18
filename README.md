@@ -88,7 +88,7 @@ cd vggt_main
 pip install -r requirements.txt # This is for VGGT
 pip install -e .
 
-# Last, download the VGGT Checkpoint, name it model.pt and place it under vggt-main folder.
+# Last, download the VGGT Checkpoint, name it model.pt and place it under vggt_main folder.
 ```
 
 The directory structure should look like:
