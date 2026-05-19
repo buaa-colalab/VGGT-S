@@ -24,9 +24,9 @@
         <a href="https://arxiv.org/abs/2604.13596" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2604.13596-b31b1b.svg">
         </a>
-        <!-- <a href="URL_HERE" target='_blank'>
+        <a href="https://bohaocheung.github.io/VGGT-S-project-page" target='_blank'>
         <img src="https://img.shields.io/badge/Project-Page-green">
-        </a> -->
+        </a>
         <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:jq38NPHn4IQJ:scholar.google.com/&output=citation&scisdr=ClgBRwZHEN-wr8OW2eU:AFyMTJUAAAAAagaQweUMI9W3d4bE2S1_35XpMEM&scisig=AFyMTJUAAAAAagaQwVDNP28VXvXE-Xq1pW_q-jU&scisf=4&ct=citation&cd=0&hl=en" target='_blank'>
         <img src="https://img.shields.io/badge/Cite-BibTeX-blue">
         </a>
