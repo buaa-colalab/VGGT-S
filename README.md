@@ -31,7 +31,7 @@
         <img src="https://img.shields.io/badge/Cite-BibTeX-blue">
         </a>
         <a href="https://huggingface.co/zbbhhh/VGGT-S">
-        <img src='https://img.shields.io/badge/Checkpoint-yellow?logo=huggingface'>
+        <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-yellow'>
         </a>
     </h4>
 </div>
