@@ -24,6 +24,9 @@
         <a href="https://bohaocheung.github.io/VGGT-S-project-page" target='_blank'>
         <img src="https://img.shields.io/badge/Project-Page-green">
         </a>
+        <a href="https://www.youtube.com/watch?v=56TSdPqQtgA">
+        <img src='https://img.shields.io/badge/YouTube-Video-red?logo=youtube'>
+        </a>
         <a href="https://arxiv.org/abs/2604.13596" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2604.13596-b31b1b.svg">
         </a>
