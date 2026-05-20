@@ -29,8 +29,8 @@ exp:
   # Remaining samples use direct prediction only
   refine_ratio: 0.5
 
-  # Total training iterations
-  samples: 240000
+  # Training samples of one epoch
+  train_samples: 240000
 
   # Initial learning rate
   lr: 5e-5
