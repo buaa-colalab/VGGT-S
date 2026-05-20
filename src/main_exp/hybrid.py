@@ -200,7 +200,7 @@ def train_epoch(epoch, config, device, train_log_path, train_ckpt_dir, vggt,
     predictor.train()
 
     # Number of iterations per epoch
-    tot_iter = (config['exp']['train_iter'] //
+    tot_iter = (config['exp']['samples'] //
                 (config['data']['train_batch_size'] *
                  torch.distributed.get_world_size()))
 

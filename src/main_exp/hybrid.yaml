@@ -30,7 +30,7 @@ exp:
   refine_ratio: 0.5
 
   # Total training iterations
-  train_iter: 240000
+  samples: 240000
 
   # Initial learning rate
   lr: 5e-5
