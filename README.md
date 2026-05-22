@@ -201,7 +201,7 @@ Open:
 third_party/vggt_main/vggt/heads/track_modules/base_track_predictor.py
 ```
 
-Add the following line at the end of the `__init__` method in the `BaseTrackerPredictor` class:
+Add the following line at the end of the `__init__` method in the `BaseTrackerPredictor` class, around [base_track_predictor.py#L81](https://github.com/facebookresearch/vggt/blob/main/vggt/heads/track_modules/base_track_predictor.py#L81):
 
 ```python
 self.pos_embed = None
@@ -209,7 +209,7 @@ self.pos_embed = None
 
 This attribute is used to cache the loaded positional embeddings.
 
-Then, replace the following line (around Line 149):
+Then, replace the following line in [base_track_predictor.py#L149](https://github.com/facebookresearch/vggt/blob/main/vggt/heads/track_modules/base_track_predictor.py#L149):
 
 ```python
 pos_embed = get_2d_sincos_pos_embed(self.transformer_dim, grid_size=(HH, WW)).to(query_points.device)
