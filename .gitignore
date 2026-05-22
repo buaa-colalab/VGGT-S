@@ -6,3 +6,6 @@ data/*.json
 
 # assets
 assets/*.gif
+
+# pos embed
+pos_embed/*

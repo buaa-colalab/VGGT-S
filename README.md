@@ -4,7 +4,7 @@
 
 <div>
     <a href='https://scholar.google.com/citations?user=s3u33VAAAAAJ&hl=en&oi=ao' target='_blank'>Yulu Gao*</a><sup>1</sup>&emsp;
-    <a href='https://github.com/bohaocheung' target='_blank'>Bohang Zhang*</a><sup>2</sup>&emsp;
+    <a href='https://github.com/bohaoZhang7' target='_blank'>Bohang Zhang*</a><sup>2</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=jrgMNxEAAAAJ&hl=en&oi=ao' target='_blank'>Zongheng Tang</a><sup>1</sup>&emsp;
     <a href='https://github.com/nikkukun' target='_blank'>Jitong Liao</a><sup>2</sup>&emsp;
     <a href='https://iai.buaa.edu.cn/info/1013/1093.htm' target='_blank'>Wenjun Wu</a><sup>2</sup>&emsp;
@@ -21,7 +21,7 @@
 
 <div>
     <h4 align="center">
-        <a href="https://bohaocheung.github.io/VGGT-S-project-page" target='_blank'>
+        <a href="https://bohaozhang7.github.io/VGGT-S-project-page" target='_blank'>
         <img src="https://img.shields.io/badge/Project-Page-green">
         </a>
         <a href="https://arxiv.org/abs/2604.13596" target='_blank'>
@@ -42,7 +42,7 @@
 <strong>VGGT-S is a geometry-grounded segmentation framework built upon [VGGT](https://github.com/facebookresearch/vggt) for instance-level object segmentation across egocentric and exocentric views under large viewpoint, scale, and occlusion variations.</strong>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/bohaocheung/VGGT-S-project-page/main/static/images/compressed-repo-demo.gif" width="100%">
+    <img src="https://raw.githubusercontent.com/bohaozhang7/VGGT-S-project-page/main/static/images/compressed-repo-demo.gif" width="100%">
 </div>
 
 </div>
