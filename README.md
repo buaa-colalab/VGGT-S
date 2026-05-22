@@ -181,6 +181,58 @@ def forward(self, aggregated_tokens_list, images, patch_start_idx, query_points=
     return coord_preds, vis_scores, conf_scores
 ```
 
+#### Optional
+
+We observe that VGGT recomputes the 2D positional embeddings during every forward pass, even when the input image resolution remains unchanged. To accelerate both training and inference, we adapt the implementation by precomputing the 2D positional embeddings offline and loading them directly at runtime, thereby avoiding redundant computations.
+
+1. Generate the 2D positional embeddings using `gen_pos_embed.py`:
+
+```bash
+python gen_pos_embed.py --img_H 518 --img_W 518
+```
+
+We also provide precomputed positional embeddings for various commonly used image resolutions on [Hugging Face](https://huggingface.co/zbbhhh/VGGT-S).
+
+2. Modify the VGGT tracking head to use the precomputed embeddings.
+
+Open:
+
+```text
+third_party/vggt_main/vggt/heads/track_modules/base_track_predictor.py
+```
+
+Add the following line at the end of the `__init__` method in the `BaseTrackerPredictor` class:
+
+```python
+self.pos_embed = None
+```
+
+This attribute is used to cache the loaded positional embeddings.
+
+Then, replace the following line (around Line 149):
+
+```python
+pos_embed = get_2d_sincos_pos_embed(self.transformer_dim, grid_size=(HH, WW)).to(query_points.device)
+```
+
+with:
+
+```python
+pos_emb_pt = (
+    f"vggt_main/pos_embed/"
+    f"pos_embed_{self.transformer_dim}_{HH}_{WW}.pt"
+)
+
+assert os.path.exists(pos_emb_pt), (
+    f"[BUG] Positional embedding file not found: {pos_emb_pt}"
+)
+
+if self.pos_embed is None:
+    self.pos_embed = torch.load(pos_emb_pt).to(query_points.device)
+
+pos_embed = self.pos_embed
+```
+
 ---
 
 ### Dataset Preparation
