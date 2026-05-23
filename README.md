@@ -4,7 +4,7 @@
 
 <div>
     <a href='https://scholar.google.com/citations?user=s3u33VAAAAAJ&hl=en&oi=ao' target='_blank'>Yulu Gao*</a><sup>1</sup>&emsp;
-    <a href='https://github.com/bohaozhang007' target='_blank'>Bohang Zhang*</a><sup>2</sup>&emsp;
+    <a href='https://github.com/bohaozhang007' target='_blank'>Bohao Zhang*</a><sup>2</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=jrgMNxEAAAAJ&hl=en&oi=ao' target='_blank'>Zongheng Tang</a><sup>1</sup>&emsp;
     <a href='https://github.com/nikkukun' target='_blank'>Jitong Liao</a><sup>2</sup>&emsp;
     <a href='https://iai.buaa.edu.cn/info/1013/1093.htm' target='_blank'>Wenjun Wu</a><sup>2</sup>&emsp;
